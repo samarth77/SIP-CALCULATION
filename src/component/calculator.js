@@ -32,6 +32,7 @@ const Calculator = function () {
     <>
       <h2>Calculate your SIP</h2>
       <div>
+        Principal Amount:
         <input
           type="text"
           name="principal"
@@ -42,6 +43,7 @@ const Calculator = function () {
         {pAmt}
       </div>
       <div>
+        Rate of Return expected:
         <input
           type="text"
           name="roi"
@@ -52,6 +54,7 @@ const Calculator = function () {
         {roi}
       </div>
       <div>
+        Number of months to invest:
         <input
           type="text"
           name="payments-count"
